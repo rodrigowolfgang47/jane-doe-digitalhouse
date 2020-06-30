@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+h1{
+    font-size: 55px;
+}
+
+
+nav{
+    margin: 0 auto;
+    width: 100%;
+    
+    font-family: 'Montserrat';
+    position: absolute;
+    z-index: 1;
+}
+
+
+ul{
+    list-style: none;
+    text-align: center;
+    background-color: rgba(26, 26, 26, 0.911);
+    margin: 0px;
+    padding: 45px;
+}
+
+ul li{
+    box-sizing: border-box;
+    display: inline;
+    margin: 20px;
+    padding: 0px 40px ;
+    border-left: 1px solid rgb(58, 255, 19);
+    border-right: 1px solid rgb(58, 255, 19);
+    color: seashell;
+}  
+
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h1{
+    text-align: center;
+    border:0;
+    margin: 25px;
+    font-size: 16pt;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: 5000;
+}
+
+
+img{
+    display:block;
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+
+}
+
+
+.main{
+    position: relative;
+}
+
+#direitosAutorais{
+    float: inline-end;
+    background-color: #000000;
+    padding: 5px 0px;
+    color: seashell;
+    z-index: 1;
+}
+#direitosAutorais h6{
+    font-size: 9pt;
+    text-align: center;
+    margin: 0px;
+
+}
+
+#caixa{
+    position: absolute;
+    background-color:rgba(58, 255, 19, 0.781);
+    width:45%;
+    height:100%;
+    font-size:350%;
+    font-weight:900;
+    text-transform: uppercase;
+    box-shadow:11px 14px 12px 0;
+
+}
+
+h3{
+    position: absolute;
+    margin-top: 35%;
+    margin-left:45%;
+    padding: 10% 7%;
+    border: 10px solid white;
+    
+}
+
+h3 img{
+    color: white;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.texto{
+    box-sizing: border-box;
+    margin: 55px auto;
+    width: 65%;
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 1px solid rgb(58, 255, 19);
+    padding: 35px 25px;
+    text-decoration: solid;
+}
+
+article{
+    margin-top: 14px;
+    text-transform: capitalize;
+    font-weight: 400;
+    text-align: justify;
+}
+
+#musicas{
+    margin: 0 auto;
+    margin-bottom: 45px;
+    width: 65%;
+    background-color: rgb(58, 255, 19);
+}
+
+section{
+    overflow: hidden;
+}
+
+div#musicas section div {
+    float: left;
+    width: 50%;
+}
+
+div#musicas section div ol li{
+    float: right;
+    box-sizing: border-box;
+    margin:0 auto;
+    float: initial;
+    width: 100%;
+    border: none;
+    padding: 12px 10px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+}
+
+span{
+    font-weight: 800;
+}
+
+span a{
+    color: black;
+}
+
+
+
+/*ABOUT US*/
+
+#caixa-2{
+    position: absolute;
+    background-color:rgba(58, 255, 19, 0.781);
+    width:40%;
+    height:500px;
+    font-size:350%;
+    font-weight:900;
+    text-transform: uppercase;
+    box-shadow:11px 14px 12px 0;
+    margin-left: 10%;
+    margin-top: 12%;
+    padding: 0px;
+
+}
+
+div#caixa-2 h1{
+    font-size: 26px;
+    text-align: left;
+    margin-bottom: 35px;
+}
+div#caixa-2 h2{
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 0px 33px 33px 33px;
+    font-weight: 500;
+    margin-top: 5px;
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+div#caixa-2 img{
+    box-sizing: border-box;
+    width:25px;
+    display: inline;
+    margin-right:0px;
+}
+
+div#caixa-2 h3{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.555);
+    margin-top: 30%;
+    padding: 4% 8%;
+}
+
+
+/*CONTAC*/
+
+#main{
+    overflow: hidden;
+}
+
+#caixa-4{
+    box-sizing: border-box;
+    z-index: 0;
+    float: left;
+    background-color:rgba(58, 255, 19, 0.781);
+    width:50%;
+    height:100%;
+    font-size:16px;
+    font-weight:900;
+    text-transform: uppercase;
+    box-shadow:11px 14px 12px 0;
+    margin-left: 0px;
+    margin-top: 109px;
+    padding-left: 10%; 
+
+}
+
+div#main div#caixa-3 h1{
+    font-size: 26px;
+    text-align: left;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    font-weight: 900;
+}
+
+
+label{
+    float: left;
+    font-weight: 600;
+}
+
+input{
+    width: 60%;
+    height: 4vh;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    border: 3px solid black ;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+textarea{
+    width: 60%;
+    height: 9vh;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    border: 3px solid black ;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#titulo{
+    display: block;
+    height: 20px;
+
+}
+
+#facebook{
+    display: inline;
+}
+
+button{
+    width: 25%;
+    height: 45px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 5%;
+}
+
+
+iframe{
+    float: left;
+    margin-top: 7%;
+    margin-left: 8%;
+}
+
+.contact{
+    overflow: hidden;
+    display: block;
+    width: 80%;
+    margin: 25px 22%;
+
+}
+
+.contact article{
+    box-sizing: border-box;
+    float: left;
+    width: 31%;
+    margin-right: 10%;
+    margin-top:45px;
+    margin-bottom: 45px;
+    padding: 25px;
+    border: 1px solid rgb(58, 255, 19) ;
+    text-align: center;
+    padding-top: 35px;
+    
+}
+
+/*MUSIC*/
+
+div#main iframe{
+    float: left;
+    margin-top: 9%;
+    margin-left: 2%;
+}
+
+div#main article{
+    box-sizing: border-box;
+    float: left;
+    width: 80%;
+    margin-right: 10%;
+    margin-top:45px;
+    margin-bottom: 45px;
+    margin-left: 0%;
+    padding: 25px;
+    border: 2px solid black ;
+    text-align: left;
+    padding-top: 35px;
+    
+}
+
+#caixa-5{
+    box-sizing: border-box;
+    z-index: 0;
+    float: left;
+    background-color:rgba(58, 255, 19, 0.781);
+    width:50%;
+    height:90%;
+    font-size:16px;
+    font-weight:900;
+    text-transform: uppercase;
+    box-shadow:11px 14px 12px 0;
+    margin-left: 0px;
+    margin-top: 120px;
+    padding-left: 2%; 
+
+}
+
+#caixa-6{
+    box-sizing: border-box;
+    z-index: 0;
+    float: right;
+    background-color:rgba(58, 255, 19, 0.781);
+    width:56%;
+    height:90%;
+    font-size:16px;
+    font-weight:900;
+    text-transform: uppercase;
+    box-shadow:11px 14px 12px 0;
+    margin-left: 0px;
+    margin-top: 120px;
+    margin-bottom: 45px;
+    padding-left: 2%; 
+
+}
+
+nav ul li:hover{
+    transition-duration: 0.5s;
+    background-color: rgba(58, 255, 19, 0.781) ;
+    width: 100%;
+    height:45px;
+    padding: 10px;
+
+}
